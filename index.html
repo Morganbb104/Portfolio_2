@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
     <meta charset="UTF-8" />
@@ -13,7 +14,7 @@
   <body>
       <section class="hero">
           <nav>
-              <img class="logo" src="src/images/logo.png" alt="Ania Kubow's logo"/>
+              <!-- <img class="logo" src="src/images/logo.png" alt="Cheng's logo"/> -->
               <ul id="nav-list">
                   <li><a href="#about-me">About me</a></li>
                   <li><a href="#projects">Projects</a></li>
@@ -30,7 +31,7 @@
                 <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials">
-                <div><a href="https://www.twitter.com/ania_kubow" class="social">
+                <div><a href="" class="social">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
                 </a></div>
                 <div><a href="https://github.com/Morganbb104"  class="social">
@@ -51,37 +52,39 @@
               <img class="headshot" src="src/images/face.jpg" alt="Ania kubow headshot"/>
           </div>
       </section>
-      <section class="sub-section-alternative swiper-container home-slider" id="projects home-slider">
+      
+      <section class="sub-section-alternative " id="projects">
           <h2>Projects</h2>
-          <div class="project-container">
-              <div class="project-card">
-                  <img class="project-image" src="src/images/project1.jpg" alt="Project One Image"/>
-                  <h3>Project One</h3>
-                  <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
+          <div class="project-container swiper-container home-slider" id="home-slider">
+              <div class="project-card ">
+                  <img class="project-image" src="src/images/event-planner.jpg" alt="Event_palnner"/>
+                  <h3>Project 1</h3>
+                  <p class="subtext">Event Planner is my 2nd group project which was used to help user to arrange their events</p>
                   <hr/>
                   <p class="subtext"><a class="project-link" href="https://github.com/Morganbb104/Event_Planner_project2">View here</a></p>
               </div>
               <div class="project-card">
-                <img class="project-image" src="src/images/project2.jpg" alt="Project One Image"/>
-                <h3>Project Two</h3>
-                <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
+                <img class="project-image" src="src/images/Movie_tracker.png" alt="Movie_tracker"/>
+                <h3>Project 2</h3>
+                <p class="subtext">User can search movie from movie tracker and get all the similar movies with relevant titles. In addition, they can also look for the nearby theatres</p>
                 <hr/>
                 <p class="subtext"><a class="project-link" href="https://github.com/Morganbb104/Project-movieTracker">View here</a></p>
               </div>
               <div class="project-card">
-                <img class="project-image" src="src/images/project3.png" alt="Project One Image"/>
-                <h3>Project Three</h3>
+                <img class="project-image" src="src/images/top Day scheduler.jpg" alt="Day scheduler"/>
+                <h3>Project 3</h3>
                 <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
                 <hr/>
                 <p class="subtext"><a class="project-link" href="https://github.com/Morganbb104/Work-Day-Scheduler">View here</a></p>
               </div>
               <div class="project-card">
-                <img class="project-image" src="src/images/Project4.jpg" alt="Project One Image"/>
-                <h3>Project Four</h3>
+                <img class="project-image" src="src/images/passwordGenerator.png" alt="Project One Image"/>
+                <h3>Project 4</h3>
                 <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
                 <hr/>
                 <p class="subtext"><a class="project-link" href="https://github.com/Morganbb104/Passwords_generator">View here</a></p>
               </div>
+              
           </div>
       </section>
       <footer id="contact-me">
